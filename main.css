@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ------ css reset above------ */
 
 html, body {
   font-family: "helvetica Neue", arial, verdana, sans-serif;
@@ -94,9 +95,6 @@ h1 {
 .labels {
   padding: 2px;
   padding-left: 12px;
-  float: left;
-  width: 40%;
-  text-align: right;
  }
 
 
@@ -107,8 +105,6 @@ h1 {
   border: 1px solid #c0c0c0;
   border-radius: 4px;
   margin: 10px;
-  float: left;
-  width: 40%;
 }
 
 input:hover, textarea:hover {
