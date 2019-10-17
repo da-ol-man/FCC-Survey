@@ -46,7 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+<<<<<<< HEAD
 /* ------ css reset end------ */
+=======
+/* ------ css reset above------ */
+>>>>>>> 37796a6d1b8264d2e59ff84a7f35c0c0f3238444
 
 html, body {
   font-family: "helvetica Neue", arial, verdana, sans-serif;
