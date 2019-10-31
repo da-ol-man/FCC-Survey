@@ -60,7 +60,7 @@ Custom styles
    background: -moz-linear-gradient(to right, #ffffff, #FFCB3D);
    background: linear-gradient(to right, #ffffff, #FFCB3D);
    color: #7E651E;
-   
+   text-align: center;
    
  }
 
@@ -94,7 +94,34 @@ form
    background: linear-gradient(to right, #ffffff, #FFE08A);
   border: 1px solid #807045;
   border-radius: 8px;
+  display: inline-block;
   max-width: 920px;
-  margin: 0 auto;
+  margin: 0 10px 10px;
   padding: 22px;
+  text-align: left;
+}
+
+fieldset {
+  border: 1px solid #807045;
+  border-radius: 6px;
+  padding: 12px 15px;
+}
+
+fieldset label {
+  padding: 0 12px;
+}
+
+.input-field {
+  border: 1px solid #807045;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 12px 15px;
+}
+
+.age {
+  width: 120px;
+}
+
+#radio-button {
+  padding: 12px 15px;
 }
