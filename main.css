@@ -48,90 +48,33 @@ table {
 }
 /* ------ css reset above------ */
 
-html, body {
-  font-family: "helvetica Neue", arial, verdana, sans-serif;
-  background-color: #fffdc9;
-  padding: 0;
-  margin: 0;
-}
-
-header {
-  background-color: #FFFFFF;
-  width: 85%;
-  max-width: 900px;
-  padding: 0px 15px;
-  border: 1px solid #D9E2E4;
-  border-radius: 10px;
-  margin: 15px auto 0px;
-}
-
-h1 {
-  color: #000000;
-  font-size: 3em;
-  text-align: center;
-  padding-top: 3%;
-}
-
-#description {
-  text-align: justify;
-  color: #000000;
-  font-size: 1.2em;
-  width: 100%;
-  max-width: 900px;
-  margin: 1.5% auto;
-}
-
-.form-outer {
-  font-size: 1.2em;
-  background-color: #FFFFFF;
-  max-width: 900px;
-  width: 85%;
-  padding: 15px;
-  border: 1px solid #D9E2E4;
-  border-radius: 10px;
-  margin: 0 auto 15px;
-}
-
-.labels {
-  padding: 2px;
-  padding-left: 12px;
+/*
+==============================
+Custom styles
+==============================
+*/
+ body {
+   font: 300 16px/22px "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #FFE08A;
+   color: #7E651E;
  }
 
+ /*
+==============================
+Header
+==============================
+*/
 
-.input-field {
-  height: 20px;
-  width: 300px;
-  padding: 5px;
-  border: 1px solid #c0c0c0;
-  border-radius: 4px;
-  margin: 10px;
+.logo{
+  text-align: center;
 }
 
-input:hover, textarea:hover {
-  background-color: #fffdc9;
-}
-
-#dropdown {
-  max-width: 80%;
-  font-size: 0.9em;
-  padding: 0;
-  margin: 0;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 15px 0;
-}
-
-#comments {
-  min-width: 250px;
-  min-height: 80px;
-}
-
-textarea {
-  padding: 4px;
-  border-radius: 4px;
-  margin: 10px 0;
+.logo h1 {
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 48px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
 
