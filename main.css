@@ -54,9 +54,14 @@ Custom styles
 ==============================
 */
  body {
-   font: 300 16px/22px "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
-   background-color: #FFE08A;
+   font: 300 18px/25px "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #FFCB3D;
+   background: -webkit-linear-gradient(to right, #ffffff, #FFCB3D);
+   background: -moz-linear-gradient(to right, #ffffff, #FFCB3D);
+   background: linear-gradient(to right, #ffffff, #FFCB3D);
    color: #7E651E;
+   
+   
  }
 
  /*
@@ -64,17 +69,32 @@ Custom styles
 Header
 ==============================
 */
-
-.logo{
+.logo {
   text-align: center;
 }
-
 .logo h1 {
   font-size: 48px;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.5px;
   line-height: 48px;
   padding: 40px 0 22px 0;
   text-transform: uppercase;
 }
 
+/*
+===============================
+form
+===============================
+*/
+
+.form-outer {
+  background-color: #FFE08A;
+   background: -webkit-linear-gradient(to right, #ffffff, #FFE08A);
+   background: -moz-linear-gradient(to right, #ffffff, #FFE08A);
+   background: linear-gradient(to right, #ffffff, #FFE08A);
+  border: 1px solid #807045;
+  border-radius: 8px;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 22px;
+}
