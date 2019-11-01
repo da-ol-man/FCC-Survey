@@ -55,13 +55,8 @@ Custom styles
 */
  body {
    font: 300 18px/25px "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
-   background-color: #FFCB3D;
-   background: -webkit-linear-gradient(to right, #ffffff, #FFCB3D);
-   background: -moz-linear-gradient(to right, #ffffff, #FFCB3D);
-   background: linear-gradient(to right, #ffffff, #FFCB3D);
-   color: #7E651E;
-   text-align: center;
-   
+   background-color: #807045;
+   text-align: center; 
  }
 
  /*
@@ -70,11 +65,18 @@ Header
 ==============================
 */
 .logo {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px;
+  max-width: 920px;
+  padding: 10px;
+  color: #ffffff;
   text-align: center;
 }
 .logo h1 {
   font-size: 48px;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 48px;
   padding: 40px 0 22px 0;
@@ -89,9 +91,6 @@ form
 
 .form-outer {
   background-color: #FFE08A;
-   background: -webkit-linear-gradient(to right, #ffffff, #FFE08A);
-   background: -moz-linear-gradient(to right, #ffffff, #FFE08A);
-   background: linear-gradient(to right, #ffffff, #FFE08A);
   border: 1px solid #807045;
   border-radius: 8px;
   display: inline-block;
@@ -124,4 +123,8 @@ fieldset label {
 
 #radio-button {
   padding: 12px 15px;
+}
+
+.btn {
+  padding-left: 12px;
 }
