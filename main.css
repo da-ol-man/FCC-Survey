@@ -181,24 +181,19 @@ Dropdown list
 */
 
 #dropdown {
-  margin-top: 8px;
   margin-bottom: 16px;
 }
 
-.drop-opt {
+
+
+
+
+.drop-options {
   border: 1px solid #807045;
-  border-radius: 1px;
   color: #807045;
   font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: 16px;
   margin-top: 8px;
-  max-width: 80%;
-  padding: 4px;
-}
-
-.drop-opt option {
-  background-color: #FFE08A;
-  color: #807045;
 }
 
 /*
@@ -220,4 +215,9 @@ responsive
   .user-info label:last-child  {
     margin-bottom: 0;
   }
+
+  .drop-options {
+    width: 80%;
   }
+
+}
