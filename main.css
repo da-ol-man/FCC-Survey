@@ -78,19 +78,23 @@ Header
   border: 1px solid #ffffff;
   border-radius: 6px;
   color: #ffffff;
+  letter-spacing: .5px;
   max-width: 920px;
   margin: 0 auto;
   padding: 22px;
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 
 .logo h1 {
   border-top: 10px solid #FFE08A;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 200;
+  line-height: 48px;
   padding: 22px;
   text-align: center;
+  text-shadow: #FFE08A 1px 1px;
+  text-transform: uppercase;
 }
 /*
 ==============================
@@ -105,5 +109,12 @@ Body
   margin: 0 auto;
   max-width: 920px;
   padding: 22px;
-  width: 80%;
+  width: 90%;
+}
+
+
+@media screen and (max-width: 520px) {
+  .logo {
+    line-height: ;
+  }
 }
