@@ -103,6 +103,7 @@ Body
 */
 .form-outer {
   background-color: #FFE08A;
+  background: linear-gradient( #FEE8AC, #FFE08A);
   border: 1px solid #ffffff;
   border-radius: 6px;
   color: #807045;
@@ -110,11 +111,4 @@ Body
   max-width: 920px;
   padding: 22px;
   width: 90%;
-}
-
-
-@media screen and (max-width: 520px) {
-  .logo {
-    line-height: ;
-  }
 }
