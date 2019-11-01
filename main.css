@@ -100,6 +100,11 @@ form
   text-align: left;
 }
 
+legend {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 fieldset {
   border: 1px solid #807045;
   border-radius: 6px;
