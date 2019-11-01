@@ -14,10 +14,9 @@
            We want to know what narative of climate change you subsrcibe to and what actions you are taking to support this life style choice.
             </p>
         </header>
-      <br> 
- 
 
 <section class="form-outer"> 
+
   <form id="survey-form" method="post" action="#">
 
     <fieldset class="user-info">
@@ -34,22 +33,24 @@
         
       <label id="number-label">*Age  
       <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="125" required></label>
-
     </fieldset>
-    
+
+    <fieldset>
      <section id="radio-button">
        <label>Do you beleive climate change is an impending human crisis or do you beleive that it is all a hoax? </label>
        <br>
          <label class="btn" for="crisis"><input type="radio" id="crisis" name="radio-button" value="crisis" checked>Crisis</label>
            <label class="btn" for="hoax"><input type="radio" id="hoax" name="radio-button" value="hoax">Hoax</label>
      </section>
-  
-    
-    
+    </fieldset>
+
+    <fieldset>  
       <section>
          <label>How concerned are your about the impending climate crisis, if at all?</label>
         </section>
-         
+      </fieldset>
+      
+     <fieldset>
       <section>
          <select id="dropdown">
            <option>please select one</option>
@@ -63,8 +64,10 @@
            <option>I'm a practicing activist.</option>
            <option>On the verge of panic!</option>
          </select>
-       <section>
+        </section>
+      </fieldset>
   
+   <fieldset>   
     <section>
        <label>What would you be willing to do to help? (check all that apply)</label>
          <ul >
@@ -77,24 +80,19 @@
            <li><label><input value="7" type="checkbox">Anything within reason</label></li>
          </ul>
         </section>
-  
+      </fieldset>
     
-       
+  <fieldset>     
     <section>
        <label>If there is something else that we missed or you want to let us know about, please feel free to send us your thoughts.</label>
-    </section>
    
        <textarea id="comments" placeholder="Have your say here..."></textarea>
- 
-       
+
        <button id="submit">Submit</button>
-
-    
-  </section> 
-
+    </section> 
+</fieldset>
   
-</section>
-</form>
-</section>
-</body>
+  </form>
+  </section>
+ </body>
 </html>

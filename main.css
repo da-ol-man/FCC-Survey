@@ -107,11 +107,17 @@ form
   border: 1px solid #ffffff;
   border-radius: 6px;
   color: #807045;
-  margin: 0 auto;
+  margin: 16px auto;
   max-width: 920px;
   padding: 22px;
   width: 95%;
 }
+
+ /*
+ ==============================
+ user data
+ ==============================
+ */
 
 .user-info {
   border: 1px solid #807045;
@@ -119,14 +125,14 @@ form
   padding: 8px 12px 12px 12px;
 }
 
-legend {
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
 .user-info label {
   font-weight: 400;
   padding-left: 4px;
+}
+
+legend {
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 input {
@@ -139,6 +145,15 @@ input {
 #number {
   width: 120px;
 }
+
+/*
+==============================
+user answers
+==============================
+*/
+
+
+
 
 
 /*
