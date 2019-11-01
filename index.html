@@ -1,98 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet"
-  href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
-    <title>Cimate Change Survey</title>
-  </head>
-  <body>
-  
-        <header class="logo"> 
-          <h1 id="title">Climate Change, Real or Not?</h1>
-            <p id="description">
-           We want to know what narative of climate change you subsrcibe to and what actions you are taking to support this life style choice.
-            </p>
-        </header>
 
-<section class="form-outer"> 
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+  <title>Cimate Change Survey</title>
+</head>
 
-  <form id="survey-form" method="post" action="#">
+<body>
 
-    <fieldset class="user-info">
-      <legend>Please tell us who you are</legend>    
-   
-      <label id="name-label">
-        *Name
-      <input type="text" id="name" name="name" placeholder="Enter your name" required></label>
-   
-          
-      <label id="email-label">*Email  
-      <input type="email" id="email" name="email address" placeholder="example@domain.com" required> </label>
-  
-        
-      <label id="number-label">*Age  
-      <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="125" required></label>
-    </fieldset>
+  <header class="logo">
+    <h1 id="title">Climate Change, Real or Not?</h1>
+    <p id="description">
+      We want to know what narative of climate change you subsrcibe to and what actions you are taking to support this
+      life style choice.
+    </p>
+  </header>
 
-    <fieldset>
-     <section id="radio-button">
-       <label>Do you beleive climate change is an impending human crisis or do you beleive that it is all a hoax? </label>
-       <br>
-         <label class="btn" for="crisis"><input type="radio" id="crisis" name="radio-button" value="crisis" checked>Crisis</label>
-           <label class="btn" for="hoax"><input type="radio" id="hoax" name="radio-button" value="hoax">Hoax</label>
-     </section>
-    </fieldset>
+  <section class="form-outer">
 
-    <fieldset>  
-      <section>
-         <label>How concerned are your about the impending climate crisis, if at all?</label>
+    <form id="survey-form" method="post" action="#">
+
+      <fieldset class="user-info">
+        <legend>Please tell us who you are</legend>
+
+        <label id="name-label">
+          *Name
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </label>
+
+
+        <label id="email-label">
+          *Email
+          <input type="email" id="email" name="email address" placeholder="example@domain.com" required> </label>
+
+
+        <label id="number-label">
+          *Age
+          <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="125" required></label>
+      </fieldset>
+
+      <fieldset id="radio-button">
+          <legend>
+            Do you beleive climate change is an impending human crisis or do you beleive that it is all a hoax?
+          </legend>
+          <input class="radio" type="radio" name="radio-button" value="crisis"
+              checked>
+              <label id="crisis">
+                Crisis
+              </label>
+
+
+          <input class="radio" type="radio"  name="radio-button" value="hoax">                  <label id="hoax">
+                 Hoax
+              </label>
+      </fieldset>
+
+      <fieldset>     
+          <legend>
+            How concerned are your about the impending climate crisis, if at all?
+          </legend>
+
+        <section>
+          <select id="dropdown">
+            <option>please select one</option>
+            <option>As I said, I beleive it's all a hoax.</option>
+            <option>Not at all.</option>
+            <option>A little.</option>
+            <option>So So, but belive it could be a real problem in the future.</option>
+            <option>Quite concerned, but don't know what I can do.</option>
+            <option>Very concerned, but still living my life as usual.</option>
+            <option>Very concerned and I have addapted my lifesstyle to refelct this.</option>
+            <option>I'm a practicing activist.</option>
+            <option>On the verge of panic!</option>
+          </select>
         </section>
       </fieldset>
-      
-     <fieldset>
-      <section>
-         <select id="dropdown">
-           <option>please select one</option>
-           <option>As I said, I beleive it's all a hoax.</option>
-           <option>Not at all.</option>
-           <option>A little.</option>
-           <option>So So, but belive it could be a real problem in the future.</option>
-           <option>Quite concerned, but don't know what I can do.</option>
-           <option>Very concerned, but still living my life as usual.</option>
-           <option>Very concerned and I have addapted my lifesstyle to refelct this.</option>
-           <option>I'm a practicing activist.</option>
-           <option>On the verge of panic!</option>
-         </select>
-        </section>
-      </fieldset>
-  
-   <fieldset>   
-    <section>
-       <label>What would you be willing to do to help? (check all that apply)</label>
-         <ul >
-           <li><label><input value="1" type="checkbox">Nothing</label></li>
-           <li><label><input value="2" type="checkbox">One time donation</label></li>
-           <li><label><input value="3" type="checkbox">Donations as I can</label></li>
-           <li><label><input value="4" type="checkbox">Monthly donation</label></li>
-           <li><label><input value="5" type="checkbox">Volunteer work as I can</label></li>
-           <li><label><input value="6" type="checkbox">Monthly donations & volunteering</label></li>
-           <li><label><input value="7" type="checkbox">Anything within reason</label></li>
-         </ul>
-        </section>
-      </fieldset>
-    
-  <fieldset>     
-    <section>
-       <label>If there is something else that we missed or you want to let us know about, please feel free to send us your thoughts.</label>
-   
-       <textarea id="comments" placeholder="Have your say here..."></textarea>
 
-       <button id="submit">Submit</button>
-    </section> 
-</fieldset>
-  
-  </form>
+      <fieldset>
+        <section>
+          <label>What would you be willing to do to help? (check all that apply)</label>
+          <ul>
+            <li><label><input value="1" type="checkbox">Nothing</label></li>
+            <li><label><input value="2" type="checkbox">One time donation</label></li>
+            <li><label><input value="3" type="checkbox">Donations as I can</label></li>
+            <li><label><input value="4" type="checkbox">Monthly donation</label></li>
+            <li><label><input value="5" type="checkbox">Volunteer work as I can</label></li>
+            <li><label><input value="6" type="checkbox">Monthly donations & volunteering</label></li>
+            <li><label><input value="7" type="checkbox">Anything within reason</label></li>
+          </ul>
+        </section>
+      </fieldset>
+
+      <fieldset>
+        <section>
+          <label>If there is something else that we missed or you want to let us know about, please feel free to send us
+            your thoughts.</label>
+
+          <textarea id="comments" placeholder="Have your say here..."></textarea>
+
+          <button id="submit">Submit</button>
+
+        </section>
+      </fieldset>
+
+    </form>
   </section>
- </body>
+</body>
+
 </html>

@@ -115,7 +115,7 @@ form
 
  /*
  ==============================
- user data
+ user info
  ==============================
  */
 
@@ -130,7 +130,7 @@ form
   padding-left: 4px;
 }
 
-legend {
+.user-info legend {
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -148,11 +148,32 @@ input {
 
 /*
 ==============================
-user answers
+radio-buttons
 ==============================
 */
 
+#radio-button legend {
+  padding-top: 12px;
+  margin-bottom: 6px;
+}
 
+.radio {
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+#crisis,
+#hoax {
+  font-weight: 400;
+  margin-left: 2px;
+ 
+}
+
+/*
+==============================
+Dropdown list
+==============================
+*/
 
 
 
