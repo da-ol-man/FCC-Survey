@@ -136,6 +136,7 @@ form
 
 input  {
   background: linear-gradient( #FFFFFF, #E0E0E0);
+  border: 1px solid #807045;
   border-radius: 4px;
   color: #807045;
   font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
@@ -157,6 +158,7 @@ label {
 
 textarea {
   background: linear-gradient( #FFFFFF, #E0E0E0);
+  border: 1px solid #807045;
   border-radius: 4px;
   color: #807045;
   font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
@@ -172,8 +174,6 @@ textarea {
 buttons
 ==============================
 */
-
-
 
 #radio-button {
   margin-top: 8px;
@@ -207,6 +207,13 @@ buttons
   margin-left: 16px;
   margin-top: 8px;
   border: 1px solid #ffffff;
+}
+
+#submit:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #807045;
+  color: #807045;
+  font-weight: 400;
 }
 
 /*
