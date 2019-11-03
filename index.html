@@ -26,20 +26,20 @@
 
         <label id="name-label">
           *Name
-            </label>
           <input type="text" id="name" name="name" placeholder="Enter your name" required>
-      
+        </label>
+
 
         <label id="email-label">
           *Email
-          </label>
-          <input type="email" id="email" name="email address" placeholder="example@domain.com" required> 
+          <input type="email" id="email" name="email address" placeholder="example@domain.com" required>
+        </label>
 
 
         <label id="number-label">
           *Age
-          </label>
           <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="125" required>
+        </label>
       </fieldset>
 
       <fieldset id="radio-button">
@@ -47,13 +47,13 @@
           Do you beleive climate change is an impending human crisis or do you beleive that it is all a hoax?
         </legend>
 
+        <label id="crisis" for="crisis">
         <input class="radio" type="radio" name="radio-button" value="crisis" checked>
-        <label id="crisis">
           Crisis
         </label>
 
-        <input class="radio" type="radio" name="radio-button" value="hoax"> 
-        <label id="hoax">
+        <label id="hoax" for="hoax">
+        <input class="radio" type="radio" name="radio-button" value="hoax">
           Hoax
         </label>
 
@@ -77,38 +77,52 @@
         </select>
       </fieldset>
 
-      <fieldset>
+      <fieldset id="donations">
         <legend>
           What would you be willing to do to help? (check all that apply)
         </legend>
         <ul>
           <li>
-            <input value="1" type="checkbox">
-            <label>Nothing</label>
+            <label for="nothing">
+              <input type="checkbox" value="1">
+              Nothing
+            </label>
           </li>
           <li>
-            <input value="2" type="checkbox">
-            <label>One time donation</label>
+            <label for="checkbox">
+              <input type="checkbox" value="2">
+              One time donation
+            </label>
           </li>
           <li>
-            <input value="3" type="checkbox">
-            <label>Donations as I can</label>
+            <label for="Donations as I can">
+              <input type="checkbox" value="3">
+              Donations as I can
+            </label>
           </li>
           <li>
-            <input value="4" type="checkbox">
-            <label>Monthly donation</label>
+            <label for="Monthly donation">
+              <input type="checkbox" value="4">
+              Monthly donation
+            </label>
           </li>
           <li>
-            <input value="5" type="checkbox">
-            <label>Volunteer work as I can</label>
+            <label for="Volunteer work as I can">
+              <input type="checkbox" value="5">
+              Volunteer work as I can
+            </label>
           </li>
           <li>
-            <input value="6" type="checkbox">
-            <label>Monthly donations & volunteering</label>
+            <label for="Monthly donations & volunteering">
+              <input type="checkbox" value="6">
+              Monthly donations & volunteering
+            </label>
           </li>
           <li>
-            <input value="7" type="checkbox">
-            <label>Anything within reason</label>
+            <label for="Anything within reason">
+              <input type="checkbox" value="7">
+              Anything within reason
+            </label>
           </li>
         </ul>
       </fieldset>
