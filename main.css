@@ -186,6 +186,7 @@ buttons
 }
 
 .radio {
+  display: inline-block;
   margin-left: 16px;
   margin-bottom: 8px;
 }
@@ -241,10 +242,14 @@ responsive
 */
 
 @media screen and (max-width: 942px) 
-{ 
+{  
   .user-info label {
     display: inline-block;
-    width: 90%;
+    width: 90%
+  }
+  
+  .user-info input {
+    width: 60%;
   }
 
   .user-info label:last-child  {
@@ -252,11 +257,33 @@ responsive
   }
   
   .drop-options {
-    width: 80%;
+    width: 60%;
   }
 
   textarea { 
-    width: 80%
+    width: 60%
+  }
+  
+}
+
+@media screen and (max-width: 520px) 
+{  
+  .user-info label,
+  .user-info input {
+    display: inline-block;
+    width: 90%
+  }
+
+  .user-info label:last-child  {
+    margin-bottom: 0;
+  }
+  
+  .drop-options {
+    width: 90%;
+  }
+
+  textarea { 
+    width: 90%
   }
   
 }
