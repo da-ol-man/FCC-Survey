@@ -240,15 +240,11 @@ responsive
 ==============================
 */
 
-@media screen and (max-width: 820px) 
-{
-  body {
-    margin: 6px;
-  }
-  
+@media screen and (max-width: 942px) 
+{ 
   .user-info label {
     display: inline-block;
-    margin-bottom: 16px;
+    width: 90%;
   }
 
   .user-info label:last-child  {
