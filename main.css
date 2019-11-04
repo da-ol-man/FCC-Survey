@@ -88,9 +88,11 @@ Header
 
 .logo h1 {
   border-top: 10px solid #FFE08A;
+  border-bottom: 10px solid #FFE08A;
   font-size: 48px;
   font-weight: 200;
   line-height: 48px;
+  margin-bottom: 12px;
   padding: 22px;
   text-align: center;
   text-shadow: 1px 1px #FFE08A;
@@ -134,7 +136,7 @@ form
   padding-left: 4px;
 }
 
-input  {
+.user-info input  {
   background: linear-gradient( #FFFFFF, #E0E0E0);
   border: 1px solid #807045;
   border-radius: 4px;
@@ -142,10 +144,6 @@ input  {
   font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: 16px;
   padding: 4px;
-}
-
-ul {
-  margin-bottom: 12px;
 }
 
 label {
