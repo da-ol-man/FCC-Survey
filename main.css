@@ -240,10 +240,6 @@ responsive
   .user-info input {
     width: 60%;
   }
-
-  .user-info label:first-child  {
-    margin: 0;
-  }
   
   #dropdown {
     width: 60%;
