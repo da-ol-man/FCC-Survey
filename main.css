@@ -136,7 +136,9 @@ form
   padding-left: 4px;
 }
 
-.user-info input  {
+.user-info input,
+       #dropdown,
+        textarea {
   background: linear-gradient( #FFFFFF, #E0E0E0);
   border: 1px solid #807045;
   border-radius: 4px;
@@ -147,33 +149,12 @@ form
 }
 
 label {
-  margin-left: 4px;
+  margin-left: 6px;
 }
 
 #number {
   width: 120px;
 }
-
-textarea {
-  background: linear-gradient( #FFFFFF, #E0E0E0);
-  border: 1px solid #807045;
-  border-radius: 4px;
-  color: #807045;
-  display: block;
-  font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 16px;
-  margin-top: 10px;
-  padding-left: 8px;
-  height: 60px;
-  resize: vertical;
-  width: 320px;
-}
-
-/*
-==============================
-buttons
-==============================
-*/
 
 #radio-button {
   margin-top: 8px;
@@ -184,18 +165,36 @@ buttons
   padding-top: 12px;
   margin-bottom: 6px;
 }
-
 .radio {
-  display: inline-block;
-  margin-left: 16px;
   margin-bottom: 8px;
 }
 
-#crisis,
-#hoax {
-  font-weight: 400;
-  margin-left: 4px;
+textarea {
+  display: block;
+  margin-top: 10px;
+  padding-left: 8px;
+  height: 60px;
+  resize: vertical;
+  width: 320px;
 }
+
+/*
+Dropdown list
+==============================
+*/
+
+#dropdown {
+  height: 32px;
+  margin-left: 2px;
+  margin-bottom: 16px;
+}
+
+
+/*
+==============================
+buttons
+==============================
+*/
 
 #submit {
   background-color: #807045;
@@ -215,24 +214,6 @@ buttons
   border: 1px solid #807045;
   color: #807045;
   font-weight: 400;
-}
-
-/*
-Dropdown list
-==============================
-*/
-
-#dropdown {
-  margin-bottom: 16px;
-}
-
-.drop-options {
-  border: 1px solid #807045;
-  color: #807045;
-  font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 32px;
-  margin-left: 16px;
-  margin-top: 8px;
 }
 
 /*
