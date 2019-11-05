@@ -138,8 +138,7 @@ form
 
 .user-info input,
        #dropdown,
-        textarea {
-  background: linear-gradient( #FFFFFF, #E0E0E0);
+        textarea {    
   border: 1px solid #807045;
   border-radius: 4px;
   color: #807045;
@@ -148,8 +147,20 @@ form
   padding: 4px;
 }
 
-label {
+.user-info input,
+        textarea { 
+background: linear-gradient( #FFFFFF, #E0E0E0); 
+        } 
+
+.radio {
+  font-weight: 400;
+  display: inline-block;
+}
+
+label,
+.radio {
   margin-left: 6px;
+  margin-bottom: 8px;
 }
 
 #number {
@@ -158,16 +169,14 @@ label {
 
 #radio-button {
   margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 #radio-button legend {
   padding-top: 12px;
   margin-bottom: 6px;
 }
-.radio {
-  margin-bottom: 8px;
-}
+
 
 textarea {
   display: block;
