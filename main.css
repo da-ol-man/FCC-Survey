@@ -114,6 +114,18 @@ form
   padding: 22px;
 }
 
+fieldset {
+  margin-top: 20px;
+}
+
+.label {
+  margin-bottom: 2px;
+}
+
+.selection {
+  margin-left: 26px;
+}
+
  /*
  ==============================
  user info
@@ -133,7 +145,18 @@ form
 
 .user-info label {
   font-weight: 400;
-  padding-left: 4px;
+  margin-left: 12px;
+  margin-right: 4px;
+}
+
+#number {
+  width: 118px;
+}
+
+.radio {
+  display: inline-block;
+  font-weight: 400;
+  margin-right: 44px;
 }
 
 .user-info input,
@@ -143,6 +166,7 @@ form
   border-radius: 4px;
   color: #807045;
   font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 36px;
   padding: 4px;
 }
 
@@ -155,10 +179,22 @@ textarea {
   display: block;
   padding-left: 8px;
   height: 60px;
+  margin-top: 8px;
+  margin-bottom: 18px;
   resize: vertical;
   width: 320px;
 }
 
+/*
+==============================
+Lists
+==============================
+*/
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 12px 6px 0 0;
+}
 
 /*
 ==============================
@@ -182,16 +218,6 @@ buttons
   border: 1px solid #807045;
   color: #807045;
   font-weight: 400;
-}
-
-/*
-==============================
-Lists
-==============================
-*/
-
-input[type="checkbox"] {
- /* margin: 12px 6px 0 0; */
 }
 
 /*

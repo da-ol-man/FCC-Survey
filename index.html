@@ -40,12 +40,12 @@
         <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="125" required>
       </fieldset>
 
-      <fieldset class="row" id="radio-button">
-        <legend>
+      <fieldset id="radio-button">
+        <legend class="label">
           Do you beleive climate change is an impending human crisis or do you beleive that it is all a hoax?
         </legend>
 
-       <div class="radio">
+       <div class="selection radio">
         <input id="crisis" type="radio" name="radio-button" value="crisis" checked>
         <label for="crisis">
           Crisis
@@ -60,12 +60,12 @@
        </div>
       </fieldset>
 
-      <fieldset class="row">
-        <legend>
+      <fieldset>
+        <legend class="label">
           How concerned are your about the impending climate crisis, if at all?
         </legend>
         <label for="dropdown">
-          <select id="dropdown">
+          <select class="selection" id="dropdown">
             <option>please select one</option>
             <option>As I said, I beleive it's all a hoax.</option>
             <option>Not at all.</option>
@@ -80,11 +80,11 @@
         </label>
       </fieldset>
 
-      <fieldset class="row">
-        <legend>
+      <fieldset>
+        <legend class="label">
           What would you be willing to do to help? (check all that apply)
         </legend>
-        <ul>
+        <ul class="selection">
           <li>
             <label for="nothing">
               <input type="checkbox" value="1" id="nothing">
@@ -131,15 +131,15 @@
       </fieldset>
       
       
-      <fieldset class="row">
+      <fieldset>
         <label for="comments">
-            <legend>
+            <legend class="label">
               If there is something else that we missed or you want to let us know about, please feel free to send us your thoughts.
             </legend>
         </label>
-        <textarea id="comments" name="comment" placeholder="Have your say here..."></textarea>
+        <textarea class="selection" id="comments" name="comment" placeholder="Have your say here..."></textarea>
 
-        <button class="row" id="submit">Submit</button>
+        <button class="selection" id="submit">Submit</button>
       </fieldset>
 
     </form>
