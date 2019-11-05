@@ -29,44 +29,38 @@
           *Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-
-
         <label for="email">
           *Email
         </label>
         <input type="email" id="email" name="email address" placeholder="example@domain.com" required>
 
-
-
         <label for="number">
           *Age
         </label>
         <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="125" required>
-
       </fieldset>
 
-      <fieldset id="radio-button">
+      <fieldset class="row" id="radio-button">
         <legend>
           Do you beleive climate change is an impending human crisis or do you beleive that it is all a hoax?
         </legend>
 
-     <div class="radio">
+       <div class="radio">
         <input id="crisis" type="radio" name="radio-button" value="crisis" checked>
         <label for="crisis">
           Crisis
         </label>
-      </div>
+       </div>
 
-      <div class="radio">
+       <div class="radio">
         <input id="hoax" type="radio" name="radio-button" value="hoax">
         <label for="hoax">
           Hoax
         </label>
-      </div>
-
+       </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="row">
         <legend>
           How concerned are your about the impending climate crisis, if at all?
         </legend>
@@ -86,7 +80,7 @@
         </label>
       </fieldset>
 
-      <fieldset id="donations">
+      <fieldset class="row">
         <legend>
           What would you be willing to do to help? (check all that apply)
         </legend>
@@ -135,9 +129,9 @@
           </li>
         </ul>
       </fieldset>
-
-      <fieldset>
-
+      
+      
+      <fieldset class="row">
         <label for="comments">
             <legend>
               If there is something else that we missed or you want to let us know about, please feel free to send us your thoughts.
@@ -145,10 +139,10 @@
         </label>
         <textarea id="comments" name="comment" placeholder="Have your say here..."></textarea>
 
-        <button id="submit">Submit</button>
+        <button class="row" id="submit">Submit</button>
       </fieldset>
+
     </form>
   </section>
 </body>
-
 </html>
