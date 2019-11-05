@@ -123,6 +123,7 @@ form
 .user-info {
   border: 1px solid #807045;
   border-radius: 6px;
+  margin-bottom: 12px;
   padding: 8px 12px 12px 12px;
 }
 
@@ -152,6 +153,10 @@ form
 background: linear-gradient( #FFFFFF, #E0E0E0); 
         } 
 
+#dropdown {
+  margin-top: 6px;
+}
+
 .radio {
   font-weight: 400;
   display: inline-block;
@@ -177,7 +182,6 @@ label,
   margin-bottom: 6px;
 }
 
-
 textarea {
   display: block;
   margin-top: 10px;
@@ -197,7 +201,6 @@ Dropdown list
   margin-left: 2px;
   margin-bottom: 16px;
 }
-
 
 /*
 ==============================
@@ -223,6 +226,19 @@ buttons
   border: 1px solid #807045;
   color: #807045;
   font-weight: 400;
+}
+
+/*
+==============================
+Lists
+==============================
+*/
+#donations legend {
+  margin-bottom: 6px;
+}
+
+input[type="checkbox"] {
+  margin: 12px 6px 0 0;
 }
 
 /*
