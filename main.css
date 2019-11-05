@@ -123,7 +123,7 @@ fieldset {
 }
 
 .selection {
-  margin-left: 18px;
+  margin-left: 20px;
 }
 
  /*
@@ -182,7 +182,7 @@ textarea {
   margin-top: 8px;
   margin-bottom: 18px;
   resize: vertical;
-  width: 320px;
+  width: 60%;
 }
 
 /*
@@ -228,20 +228,24 @@ responsive
 
 @media screen and (max-width: 942px) 
 {  
-  .user-info label {
+  .user-info label,
+  .user-info input {
     display: inline-block;
-    width: 90%
+    width: 95%;
+    margin-top: 0;
+    margin-left: 4px;
+    margin-bottom: 4px;
   }
   
   .user-info input {
     width: 60%;
   }
 
-  .user-info label:last-child  {
-    margin-bottom: 0;
+  .user-info label:first-child  {
+    margin: 0;
   }
   
-  .drop-options {
+  #dropdown {
     width: 60%;
   }
 
@@ -260,19 +264,22 @@ responsive
   .user-info label,
   .user-info input {
     display: inline-block;
-    width: 90%
-  }
-
-  .user-info label:last-child  {
-    margin-bottom: 0;
+    width: 95%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 4px;
   }
   
-  .drop-options {
+  #dropdown {
     width: 90%;
   }
 
   textarea { 
-    width: 90%
+    width: 90%;
+  }
+  
+  .selection {
+    margin-left: 10px;
   }
   
 }
