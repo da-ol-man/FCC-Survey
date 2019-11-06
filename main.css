@@ -167,7 +167,7 @@ fieldset {
   color: #807045;
   font: 300 14px/1.4 "lato", "helvetica Neue", Helvetica, Arial, sans-serif;
   height: 36px;
-  padding: 4px;
+  padding: 4px 4px 4px 8px;
 }
 
 .user-info input,
